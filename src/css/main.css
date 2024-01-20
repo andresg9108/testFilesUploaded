@@ -1,0 +1,12 @@
+body{
+	color: #fff;
+	background: #000;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: orange;
+}

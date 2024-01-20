@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,user-scalable=no">
+
+    <title>Files Uploaded</title>
+
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/test1.css">
+  </head>
+  <body>
+
+    <form onsubmit="return send(this)" method="POST" enctype="multipart/form-data">
+      <div class="images">
+        <div class="image">
+          <input type="file" name="file1" onchange="changeFile(this)" accept=".gif, .jpeg, .jpg, .png, .GIF, .JPEG, .JPG, .PNG" />
+        </div>
+        <div class="image">
+          <input type="file" name="file2" onchange="changeFile(this)" accept=".gif, .jpeg, .jpg, .png, .GIF, .JPEG, .JPG, .PNG" />
+        </div>
+        <div class="image">
+          <input type="file" name="file3" onchange="changeFile(this)" accept=".gif, .jpeg, .jpg, .png, .GIF, .JPEG, .JPG, .PNG" />
+        </div>
+      </div>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <script type="text/javascript" src="./src/js/test1.js"></script>
+  </body>
+</html>
