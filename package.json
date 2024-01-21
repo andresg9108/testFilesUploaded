@@ -1,0 +1,10 @@
+{
+  "name": "testfilesuploaded",
+  "version": "0.1.0",
+  "description": "Warning: Preferably run with an Apache server.",
+  "author": "Andrés González",
+  "license": "MIT",
+  "dependencies": {
+    "dropzone": "^6.0.0-beta.2"
+  }
+}

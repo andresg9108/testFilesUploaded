@@ -1,0 +1,11 @@
+.dropzone{
+	border-width: 2px;
+	border-style: solid;
+	border-color: gray;
+}
+
+.dz-remove{
+	color: white;
+	background-color: blue;
+	text-decoration: none;
+}

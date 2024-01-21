@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,user-scalable=no">
+
+    <title>Files Uploaded</title>
+
+    <!--
+      https://www.dropzone.dev
+      https://docs.dropzone.dev
+      https://startutorial.com/view/dropzonejs-php-how-to-build-a-file-upload-form
+    -->
+    <link rel="stylesheet" href="./node_modules/dropzone/dist/dropzone.css">
+    <!-- <link rel="stylesheet" href="./node_modules/dropzone/dist/basic.css"> -->
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/testDropzone.css">
+  </head>
+  <body>
+    <h2>Dropzone.js</h2>
+
+    <form method="POST" onsubmit="return send()">
+      <div id="fileUploader" class="dropzone">
+        <div class="dz-default dz-message">
+          <img src="./src/img/load.svg" style="width: 100%; max-width: 100px;" />
+          <br />
+          <button class="dz-button" type="button">Arrastra los archivos aquí para subirlos</button>
+        </div>
+      </div>
+
+      <br />
+
+      <button type="submit">
+        Enviar
+      </button>
+    </form>
+
+    <script src="./node_modules/dropzone/dist/dropzone-min.js"></script>
+    <script src="./src/js/testDropzone.js"></script>
+  </body>
+</html>
